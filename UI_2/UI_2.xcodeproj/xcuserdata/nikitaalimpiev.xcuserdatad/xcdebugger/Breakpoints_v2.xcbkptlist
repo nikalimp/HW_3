@@ -123,8 +123,8 @@
             filePath = "UI_2/LoginFormController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "animateTitlesAppearing()"
             landmarkType = "7">
          </BreakpointContent>

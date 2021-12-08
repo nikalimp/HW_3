@@ -21,6 +21,7 @@
 		928730F92741813700878181 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928730F82741813700878181 /* Design.swift */; };
 		92A169DA2741609900D62A98 /* LectureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169D92741609900D62A98 /* LectureCell.swift */; };
 		92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169DD27416EBA00D62A98 /* LectureViewController.swift */; };
+		92C9380B2761247500C5D5EC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9380A2761247500C5D5EC /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		928730F82741813700878181 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		92A169D92741609900D62A98 /* LectureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureCell.swift; sourceTree = "<group>"; };
 		92A169DD27416EBA00D62A98 /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
+		92C9380A2761247500C5D5EC /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				923C5A162733D15500E37CF8 /* Assets.xcassets */,
 				923C5A1B2733D15500E37CF8 /* Info.plist */,
 				928730F82741813700878181 /* Design.swift */,
+				92C9380A2761247500C5D5EC /* Session.swift */,
 			);
 			path = UI_2;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */,
 				9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */,
 				9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */,
+				92C9380B2761247500C5D5EC /* Session.swift in Sources */,
 				9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */,
 				923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */,
 				928730F92741813700878181 /* Design.swift in Sources */,
