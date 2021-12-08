@@ -12,6 +12,7 @@
 		923C5A152733D15400E37CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923C5A132733D15400E37CF8 /* Main.storyboard */; };
 		923C5A172733D15500E37CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923C5A162733D15500E37CF8 /* Assets.xcassets */; };
 		923C5A222733D25F00E37CF8 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C5A212733D25F00E37CF8 /* LoginFormController.swift */; };
+		924930C027612EA800FBB1F9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924930BF27612EA800FBB1F9 /* Session.swift */; };
 		926E13D0275376E10048FAE2 /* FeedBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E13CF275376E10048FAE2 /* FeedBoardController.swift */; };
 		926E13D22753780D0048FAE2 /* FeedBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E13D12753780D0048FAE2 /* FeedBoardCell.swift */; };
 		9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A658273D7D2600441C43 /* AllLecturesController.swift */; };
@@ -31,6 +32,7 @@
 		923C5A162733D15500E37CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923C5A1B2733D15500E37CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923C5A212733D25F00E37CF8 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
+		924930BF27612EA800FBB1F9 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		926E13CF275376E10048FAE2 /* FeedBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBoardController.swift; sourceTree = "<group>"; };
 		926E13D12753780D0048FAE2 /* FeedBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBoardCell.swift; sourceTree = "<group>"; };
 		9273A658273D7D2600441C43 /* AllLecturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLecturesController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				923C5A162733D15500E37CF8 /* Assets.xcassets */,
 				923C5A1B2733D15500E37CF8 /* Info.plist */,
 				928730F82741813700878181 /* Design.swift */,
+				924930BF27612EA800FBB1F9 /* Session.swift */,
 			);
 			path = UI_2;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */,
 				9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */,
 				9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */,
+				924930C027612EA800FBB1F9 /* Session.swift in Sources */,
 				9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */,
 				923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */,
 				928730F92741813700878181 /* Design.swift in Sources */,
