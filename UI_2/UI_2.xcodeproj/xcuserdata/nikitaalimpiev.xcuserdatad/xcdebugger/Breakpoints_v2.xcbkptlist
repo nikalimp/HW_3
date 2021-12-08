@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EF997492-F8EE-4065-BF5B-B1F6A6A4668E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FF9EE71-3A5C-4BBC-9870-B00FC873572D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_2/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "548C185E-5939-40F5-9A25-846A49620FA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_2/Feed/FeedBoardCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "AllBoardsCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "548C185E-5939-40F5-9A25-846A49620FA3 - adb50408e61e0164"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_2.BoardCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; UI_2.BoardCell"
+                  moduleName = "UI_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitaalimpiev/Desktop/GB/homework/UI_2/UI_2/UI_2/Feed/FeedBoardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "548C185E-5939-40F5-9A25-846A49620FA3 - 949a304a9d6d594f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_2.BoardCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; UI_2.BoardCell"
+                  moduleName = "UI_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitaalimpiev/Desktop/GB/homework/UI_2/UI_2/UI_2/Feed/FeedBoardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "548C185E-5939-40F5-9A25-846A49620FA3 - 8c6daf61322a01ad"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_2.BoardCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UI_2.BoardCell&gt;"
+                  moduleName = "UI_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitaalimpiev/Desktop/GB/homework/UI_2/UI_2/UI_2/Feed/FeedBoardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "548C185E-5939-40F5-9A25-846A49620FA3 - 95fe9c5d6d44474c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_2.BoardCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UI_2.BoardCell&gt;"
+                  moduleName = "UI_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitaalimpiev/Desktop/GB/homework/UI_2/UI_2/UI_2/Feed/FeedBoardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "548C185E-5939-40F5-9A25-846A49620FA3 - 9db9ce005690bead"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_2.BoardCell.__deallocating_deinit"
+                  moduleName = "UI_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitaalimpiev/Desktop/GB/homework/UI_2/UI_2/UI_2/Feed/FeedBoardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DDB1514-B74F-476E-B1E7-869CEB9CA016"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_2/LoginFormController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "animateTitlesAppearing()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
