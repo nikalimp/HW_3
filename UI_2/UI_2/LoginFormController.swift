@@ -72,7 +72,12 @@ class LoginFormController: UIViewController {
     @IBOutlet weak var loginInput: UITextField!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBAction func loginButtomPressed(_ sender: Any) {
-    // Получаем текст логина
+    
+        guard let token = loginInput.text
+        else {return}
+        Session.shared.token = token
+        
+        // Получаем текст логина
     let login = loginInput.text!
     // Получаем текст-пароль
     let password = passwordInput.text!
