@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922CEEFE2765F2790041E478 /* VkAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922CEEFD2765F2790041E478 /* VkAuthViewController.swift */; };
+		922CEF01276605BE0041E478 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 922CEF00276605BE0041E478 /* Alamofire */; };
 		923C5A0E2733D15400E37CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C5A0D2733D15400E37CF8 /* AppDelegate.swift */; };
 		923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C5A0F2733D15400E37CF8 /* SceneDelegate.swift */; };
 		923C5A152733D15400E37CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923C5A132733D15400E37CF8 /* Main.storyboard */; };
@@ -25,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		922CEEFD2765F2790041E478 /* VkAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkAuthViewController.swift; sourceTree = "<group>"; };
 		923C5A0A2733D15400E37CF8 /* UI_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923C5A0D2733D15400E37CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923C5A0F2733D15400E37CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,12 +52,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922CEF01276605BE0041E478 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922CEEFC2765F2470041E478 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				922CEEFD2765F2790041E478 /* VkAuthViewController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		923C5A012733D15400E37CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +86,7 @@
 		923C5A0C2733D15400E37CF8 /* UI_2 */ = {
 			isa = PBXGroup;
 			children = (
+				922CEEFC2765F2470041E478 /* Services */,
 				926E13CE2753767F0048FAE2 /* Feed */,
 				92A169D62741604200D62A98 /* Lecture */,
 				9273A65C273D905600441C43 /* MyLectures */,
@@ -142,6 +155,9 @@
 			dependencies = (
 			);
 			name = UI_2;
+			packageProductDependencies = (
+				922CEF00276605BE0041E478 /* Alamofire */,
+			);
 			productName = UI_2;
 			productReference = 923C5A0A2733D15400E37CF8 /* UI_2.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +186,9 @@
 				Base,
 			);
 			mainGroup = 923C5A012733D15400E37CF8;
+			packageReferences = (
+				922CEEFF276605BE0041E478 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 923C5A0B2733D15400E37CF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -202,6 +221,7 @@
 				9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */,
 				92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */,
 				9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */,
+				922CEEFE2765F2790041E478 /* VkAuthViewController.swift in Sources */,
 				9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */,
 				924930C027612EA800FBB1F9 /* Session.swift in Sources */,
 				9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */,
@@ -420,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		922CEEFF276605BE0041E478 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		922CEF00276605BE0041E478 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 922CEEFF276605BE0041E478 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 923C5A022733D15400E37CF8 /* Project object */;
 }
