@@ -54,10 +54,10 @@ class VkAuthViewController: UIViewController, WKNavigationDelegate {
                         dict[key] = value
                         return dict
         }
-            guard let token = params ["access_token"], let userId = params ["userId"] else {return}
+            guard let token = params ["access_token"], let userId = params ["user_id"] else {return}
             Session.shared.token = token
             Session.shared.userId = userId
-        performSegue(withIdentifier: "vkAuth", sender: nil)
+        performSegue(withIdentifier: "showTabBarSegue", sender: nil)
 
             print (url)
                     decisionHandler(.cancel)
