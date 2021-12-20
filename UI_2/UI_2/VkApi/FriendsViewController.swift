@@ -35,8 +35,7 @@ final class FriendsViewController: UITableViewController{
         cell.textLabel?.text="\(friend.firstName) \(friend.lastName)"
         if let url = URL(string: friend.photo50) {
         cell.imageView?.sd_setImage(with: url, completed: nil)
-        return cell
+        }
+            return cell
     }
-}
-
 }
