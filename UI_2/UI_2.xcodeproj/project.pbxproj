@@ -23,6 +23,13 @@
 		9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65D273D912200441C43 /* MyLecturesController.swift */; };
 		9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65F273D913000441C43 /* MyLecturesCell.swift */; };
 		928730F92741813700878181 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928730F82741813700878181 /* Design.swift */; };
+		928AC2D52770C30F0049EFE2 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */; };
+		928AC2D72770C3540049EFE2 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D62770C3540049EFE2 /* PhotosViewController.swift */; };
+		928AC2D92770C5400049EFE2 /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D82770C5400049EFE2 /* FriendsAPI.swift */; };
+		928AC2DB2770D7BF0049EFE2 /* FriendDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2DA2770D7BF0049EFE2 /* FriendDTO.swift */; };
+		928AC2DE2770DBEF0049EFE2 /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2DD2770DBEF0049EFE2 /* Data+PrettyJSON.swift */; };
+		928AC2E02770DF510049EFE2 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2DF2770DF510049EFE2 /* Friend.swift */; };
+		928AC2E32770E4CF0049EFE2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 928AC2E22770E4CF0049EFE2 /* SDWebImage */; };
 		92A169DA2741609900D62A98 /* LectureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169D92741609900D62A98 /* LectureCell.swift */; };
 		92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169DD27416EBA00D62A98 /* LectureViewController.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +51,12 @@
 		9273A65D273D912200441C43 /* MyLecturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLecturesController.swift; sourceTree = "<group>"; };
 		9273A65F273D913000441C43 /* MyLecturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLecturesCell.swift; sourceTree = "<group>"; };
 		928730F82741813700878181 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		928AC2D62770C3540049EFE2 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		928AC2D82770C5400049EFE2 /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
+		928AC2DA2770D7BF0049EFE2 /* FriendDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDTO.swift; sourceTree = "<group>"; };
+		928AC2DD2770DBEF0049EFE2 /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
+		928AC2DF2770DF510049EFE2 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		92A169D92741609900D62A98 /* LectureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureCell.swift; sourceTree = "<group>"; };
 		92A169DD27416EBA00D62A98 /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928AC2E32770E4CF0049EFE2 /* SDWebImage in Frameworks */,
 				92615A07276F6894005F012A /* SwiftyJSON in Frameworks */,
 				92615A0A276F68BB005F012A /* Alamofire in Frameworks */,
 			);
@@ -65,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				922CEEFD2765F2790041E478 /* VkAuthViewController.swift */,
+				928AC2D82770C5400049EFE2 /* FriendsAPI.swift */,
+				928AC2DA2770D7BF0049EFE2 /* FriendDTO.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -88,6 +104,8 @@
 		923C5A0C2733D15400E37CF8 /* UI_2 */ = {
 			isa = PBXGroup;
 			children = (
+				928AC2DC2770DBD60049EFE2 /* Extension */,
+				928AC2D32770C2E80049EFE2 /* VkApi */,
 				922CEEFC2765F2470041E478 /* Services */,
 				926E13CE2753767F0048FAE2 /* Feed */,
 				92A169D62741604200D62A98 /* Lecture */,
@@ -132,6 +150,24 @@
 			path = MyLectures;
 			sourceTree = "<group>";
 		};
+		928AC2D32770C2E80049EFE2 /* VkApi */ = {
+			isa = PBXGroup;
+			children = (
+				928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */,
+				928AC2D62770C3540049EFE2 /* PhotosViewController.swift */,
+				928AC2DF2770DF510049EFE2 /* Friend.swift */,
+			);
+			path = VkApi;
+			sourceTree = "<group>";
+		};
+		928AC2DC2770DBD60049EFE2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				928AC2DD2770DBEF0049EFE2 /* Data+PrettyJSON.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		92A169D62741604200D62A98 /* Lecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +196,7 @@
 			packageProductDependencies = (
 				92615A06276F6894005F012A /* SwiftyJSON */,
 				92615A09276F68BB005F012A /* Alamofire */,
+				928AC2E22770E4CF0049EFE2 /* SDWebImage */,
 			);
 			productName = UI_2;
 			productReference = 923C5A0A2733D15400E37CF8 /* UI_2.app */;
@@ -192,6 +229,7 @@
 			packageReferences = (
 				92615A05276F6894005F012A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				92615A08276F68BB005F012A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 923C5A0B2733D15400E37CF8 /* Products */;
 			projectDirPath = "";
@@ -220,19 +258,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				92A169DA2741609900D62A98 /* LectureCell.swift in Sources */,
+				928AC2D72770C3540049EFE2 /* PhotosViewController.swift in Sources */,
+				928AC2D52770C30F0049EFE2 /* FriendsViewController.swift in Sources */,
 				923C5A222733D25F00E37CF8 /* LoginFormController.swift in Sources */,
 				923C5A0E2733D15400E37CF8 /* AppDelegate.swift in Sources */,
 				9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */,
 				92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */,
+				928AC2E02770DF510049EFE2 /* Friend.swift in Sources */,
+				928AC2D92770C5400049EFE2 /* FriendsAPI.swift in Sources */,
 				9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */,
 				922CEEFE2765F2790041E478 /* VkAuthViewController.swift in Sources */,
 				9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */,
+				928AC2DB2770D7BF0049EFE2 /* FriendDTO.swift in Sources */,
 				924930C027612EA800FBB1F9 /* Session.swift in Sources */,
 				9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */,
 				923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */,
 				928730F92741813700878181 /* Design.swift in Sources */,
 				926E13D22753780D0048FAE2 /* FeedBoardCell.swift in Sources */,
 				926E13D0275376E10048FAE2 /* FeedBoardController.swift in Sources */,
+				928AC2DE2770DBEF0049EFE2 /* Data+PrettyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +506,14 @@
 				minimumVersion = 5.5.0;
 			};
 		};
+		928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -474,6 +526,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 92615A08276F68BB005F012A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		928AC2E22770E4CF0049EFE2 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -235,6 +235,8 @@
                     <connections>
                         <segue destination="kuF-Yb-8Iw" kind="relationship" relationship="viewControllers" id="Vsb-nP-soq"/>
                         <segue destination="xte-gh-PMy" kind="relationship" relationship="viewControllers" id="8FT-6U-8F4"/>
+                        <segue destination="OH4-vO-XZZ" kind="relationship" relationship="viewControllers" id="Krt-7O-dyQ"/>
+                        <segue destination="ja4-hI-VwU" kind="relationship" relationship="viewControllers" id="htL-Aa-rW6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1K-B0-cvh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -301,6 +303,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CvD-48-Xlj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="157" y="84"/>
+        </scene>
+        <!--Фото-->
+        <scene sceneID="OPk-Uy-d5f">
+            <objects>
+                <tableViewController id="ja4-hI-VwU" customClass="PhotosViewController" customModule="UI_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="V3x-Kt-Bdz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="oH7-x6-WXB">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oH7-x6-WXB" id="8JZ-2b-Z5j">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ja4-hI-VwU" id="Hq8-IS-1hx"/>
+                            <outlet property="delegate" destination="ja4-hI-VwU" id="I78-If-ukS"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Фото" image="photo" catalog="system" id="DkI-9r-plK"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N8w-LE-sth" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1057" y="1208"/>
+        </scene>
+        <!--Друзья-->
+        <scene sceneID="GcL-Cq-8x7">
+            <objects>
+                <tableViewController id="OH4-vO-XZZ" customClass="FriendsViewController" customModule="UI_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="8q4-CL-YEF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="yOy-YQ-hQb">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yOy-YQ-hQb" id="4dy-DP-QI0">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="OH4-vO-XZZ" id="mwe-68-gpj"/>
+                            <outlet property="delegate" destination="OH4-vO-XZZ" id="rUT-nF-tEj"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Друзья" image="person.fill" catalog="system" id="txm-eL-5A2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzk-1I-nW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-280" y="883"/>
         </scene>
         <!--Лекции-->
         <scene sceneID="szo-Lu-wYM">
@@ -565,6 +625,8 @@
         <image name="Gallery" width="120" height="120"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="logo 60*60" width="60" height="60"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="photo" catalog="system" width="128" height="93"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <image name="Вандышева1" width="360" height="240"/>
         <systemColor name="systemBackgroundColor">
