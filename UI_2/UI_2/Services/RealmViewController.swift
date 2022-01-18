@@ -21,10 +21,10 @@ class RealmViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let person = PersonDAO ()
-        person.name = "Nik"
-        person.age = 22
-        person.gender = "m"
-        person.instagram = "nikita.alimpiev"
+        person.name = "Nikita"
+        person.age = 23
+        person.gender = "man"
+        person.instagram = "nikalimp"
         
         let migration = Realm.Configuration(schemaVersion: 2)
         let mainRealm = try! Realm(configuration: migration)
@@ -42,9 +42,9 @@ class RealmViewController: UIViewController {
     let persons = mainRealm.objects(PersonDAO.self)
         persons.forEach { print($0.name, $0.age, $0.gender, $0.instagram) }
 
-    mainRealm.beginWrite()
-    mainRealm.delete(person)
-    try! mainRealm.commitWrite()
+//    mainRealm.beginWrite()
+//    mainRealm.delete(person)
+//    try! mainRealm.commitWrite()
     
     }
     

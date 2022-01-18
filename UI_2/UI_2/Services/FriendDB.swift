@@ -10,18 +10,19 @@ import RealmSwift
 
 // MARK: - FriendDTO
 class FriendDAO: Object, Codable {
-    @objc dynamic var id: Int
+    @objc dynamic var id: Int = 0
     @objc dynamic var photo100: String
     @objc dynamic var lastName: String
+    @objc dynamic var firstName: String
     @objc dynamic var photo50: String
     
     let trackCode: String?
     let isClosed: Bool?
-    let firstName: String
-    let domain: String
+    let domain: String?
     
     enum CodingKeys: String, CodingKey {
-        case domain, id
+        case domain
+        case id
         case photo100 = "photo_100"
         case lastName = "last_name"
         case photo50 = "photo_50"
@@ -33,7 +34,7 @@ class FriendDAO: Object, Codable {
 
 final class FriendsDB {
     init() {
-        Realm.Configuration.defaultConfiguration = Realm.Configuration(schemaVersion: 2)
+        Realm.Configuration.defaultConfiguration = Realm.Configuration(schemaVersion: 3)
     }
     func save(_ items: [FriendDAO]){
         let realm = try! Realm()
