@@ -26,6 +26,12 @@
 		9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65A273D7EBA00441C43 /* AllLecturesCell.swift */; };
 		9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65D273D912200441C43 /* MyLecturesController.swift */; };
 		9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65F273D913000441C43 /* MyLecturesCell.swift */; };
+		928245152799CE380083C54F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 928245142799CE380083C54F /* GoogleService-Info.plist */; };
+		928245182799D0540083C54F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 928245172799D0540083C54F /* FirebaseAuth */; };
+		9282451A2799D0540083C54F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 928245192799D0540083C54F /* FirebaseDatabase */; };
+		9282451C2799D44D0083C54F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282451B2799D44D0083C54F /* LoginViewController.swift */; };
+		9282451E2799D4630083C54F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282451D2799D4630083C54F /* HomeViewController.swift */; };
+		928245202799E03A0083C54F /* CityFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282451F2799E03A0083C54F /* CityFirebase.swift */; };
 		928730F92741813700878181 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928730F82741813700878181 /* Design.swift */; };
 		928AC2D52770C30F0049EFE2 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */; };
 		928AC2D72770C3540049EFE2 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D62770C3540049EFE2 /* PhotosViewController.swift */; };
@@ -55,6 +61,10 @@
 		9273A65A273D7EBA00441C43 /* AllLecturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLecturesCell.swift; sourceTree = "<group>"; };
 		9273A65D273D912200441C43 /* MyLecturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLecturesController.swift; sourceTree = "<group>"; };
 		9273A65F273D913000441C43 /* MyLecturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLecturesCell.swift; sourceTree = "<group>"; };
+		928245142799CE380083C54F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9282451B2799D44D0083C54F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9282451D2799D4630083C54F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9282451F2799E03A0083C54F /* CityFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFirebase.swift; sourceTree = "<group>"; };
 		928730F82741813700878181 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		928AC2D62770C3540049EFE2 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
@@ -71,9 +81,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				928AC2E32770E4CF0049EFE2 /* SDWebImage in Frameworks */,
+				928245182799D0540083C54F /* FirebaseAuth in Frameworks */,
 				92615A07276F6894005F012A /* SwiftyJSON in Frameworks */,
 				9230A3302777AB0F00147457 /* Realm in Frameworks */,
 				9230A3322777AB0F00147457 /* RealmSwift in Frameworks */,
+				9282451A2799D0540083C54F /* FirebaseDatabase in Frameworks */,
 				92615A0A276F68BB005F012A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +138,10 @@
 				923C5A1B2733D15500E37CF8 /* Info.plist */,
 				928730F82741813700878181 /* Design.swift */,
 				924930BF27612EA800FBB1F9 /* Session.swift */,
+				928245142799CE380083C54F /* GoogleService-Info.plist */,
+				9282451B2799D44D0083C54F /* LoginViewController.swift */,
+				9282451D2799D4630083C54F /* HomeViewController.swift */,
+				9282451F2799E03A0083C54F /* CityFirebase.swift */,
 			);
 			path = UI_2;
 			sourceTree = "<group>";
@@ -206,6 +222,8 @@
 				928AC2E22770E4CF0049EFE2 /* SDWebImage */,
 				9230A32F2777AB0F00147457 /* Realm */,
 				9230A3312777AB0F00147457 /* RealmSwift */,
+				928245172799D0540083C54F /* FirebaseAuth */,
+				928245192799D0540083C54F /* FirebaseDatabase */,
 			);
 			productName = UI_2;
 			productReference = 923C5A0A2733D15400E37CF8 /* UI_2.app */;
@@ -240,6 +258,7 @@
 				92615A08276F68BB005F012A /* XCRemoteSwiftPackageReference "Alamofire" */,
 				928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				9230A32E2777AB0F00147457 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				928245162799D0540083C54F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 923C5A0B2733D15400E37CF8 /* Products */;
 			projectDirPath = "";
@@ -257,6 +276,7 @@
 			files = (
 				923C5A172733D15500E37CF8 /* Assets.xcassets in Resources */,
 				923C5A152733D15400E37CF8 /* Main.storyboard in Resources */,
+				928245152799CE380083C54F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,13 +293,16 @@
 				928AC2D52770C30F0049EFE2 /* FriendsViewController.swift in Sources */,
 				923C5A222733D25F00E37CF8 /* LoginFormController.swift in Sources */,
 				923C5A0E2733D15400E37CF8 /* AppDelegate.swift in Sources */,
+				9282451E2799D4630083C54F /* HomeViewController.swift in Sources */,
 				9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */,
 				92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */,
 				928AC2E02770DF510049EFE2 /* Friend.swift in Sources */,
 				928AC2D92770C5400049EFE2 /* FriendsAPI.swift in Sources */,
+				9282451C2799D44D0083C54F /* LoginViewController.swift in Sources */,
 				9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */,
 				922CEEFE2765F2790041E478 /* VkAuthViewController.swift in Sources */,
 				9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */,
+				928245202799E03A0083C54F /* CityFirebase.swift in Sources */,
 				924930C027612EA800FBB1F9 /* Session.swift in Sources */,
 				9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */,
 				923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */,
@@ -525,6 +548,14 @@
 				minimumVersion = 5.5.0;
 			};
 		};
+		928245162799D0540083C54F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 		928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
@@ -555,6 +586,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 92615A08276F68BB005F012A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		928245172799D0540083C54F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 928245162799D0540083C54F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		928245192799D0540083C54F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 928245162799D0540083C54F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
 		};
 		928AC2E22770E4CF0049EFE2 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
