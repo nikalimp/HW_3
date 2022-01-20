@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922CEEFE2765F2790041E478 /* VkAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922CEEFD2765F2790041E478 /* VkAuthViewController.swift */; };
+		9230A32827779B0800147457 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A32727779B0800147457 /* RealmViewController.swift */; };
+		9230A32D2777A99E00147457 /* FriendDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A32C2777A99E00147457 /* FriendDB.swift */; };
+		9230A3302777AB0F00147457 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9230A32F2777AB0F00147457 /* Realm */; };
+		9230A3322777AB0F00147457 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9230A3312777AB0F00147457 /* RealmSwift */; };
 		923C5A0E2733D15400E37CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C5A0D2733D15400E37CF8 /* AppDelegate.swift */; };
 		923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C5A0F2733D15400E37CF8 /* SceneDelegate.swift */; };
 		923C5A152733D15400E37CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923C5A132733D15400E37CF8 /* Main.storyboard */; };
 		923C5A172733D15500E37CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923C5A162733D15500E37CF8 /* Assets.xcassets */; };
 		923C5A222733D25F00E37CF8 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C5A212733D25F00E37CF8 /* LoginFormController.swift */; };
+		924930C027612EA800FBB1F9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924930BF27612EA800FBB1F9 /* Session.swift */; };
+		92615A07276F6894005F012A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 92615A06276F6894005F012A /* SwiftyJSON */; };
+		92615A0A276F68BB005F012A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 92615A09276F68BB005F012A /* Alamofire */; };
 		926E13D0275376E10048FAE2 /* FeedBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E13CF275376E10048FAE2 /* FeedBoardController.swift */; };
 		926E13D22753780D0048FAE2 /* FeedBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E13D12753780D0048FAE2 /* FeedBoardCell.swift */; };
 		9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A658273D7D2600441C43 /* AllLecturesController.swift */; };
@@ -19,11 +27,20 @@
 		9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65D273D912200441C43 /* MyLecturesController.swift */; };
 		9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65F273D913000441C43 /* MyLecturesCell.swift */; };
 		928730F92741813700878181 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928730F82741813700878181 /* Design.swift */; };
+		928AC2D52770C30F0049EFE2 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */; };
+		928AC2D72770C3540049EFE2 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D62770C3540049EFE2 /* PhotosViewController.swift */; };
+		928AC2D92770C5400049EFE2 /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2D82770C5400049EFE2 /* FriendsAPI.swift */; };
+		928AC2DE2770DBEF0049EFE2 /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2DD2770DBEF0049EFE2 /* Data+PrettyJSON.swift */; };
+		928AC2E02770DF510049EFE2 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC2DF2770DF510049EFE2 /* Friend.swift */; };
+		928AC2E32770E4CF0049EFE2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 928AC2E22770E4CF0049EFE2 /* SDWebImage */; };
 		92A169DA2741609900D62A98 /* LectureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169D92741609900D62A98 /* LectureCell.swift */; };
 		92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169DD27416EBA00D62A98 /* LectureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		922CEEFD2765F2790041E478 /* VkAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkAuthViewController.swift; sourceTree = "<group>"; };
+		9230A32727779B0800147457 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		9230A32C2777A99E00147457 /* FriendDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDB.swift; sourceTree = "<group>"; };
 		923C5A0A2733D15400E37CF8 /* UI_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923C5A0D2733D15400E37CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923C5A0F2733D15400E37CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +48,7 @@
 		923C5A162733D15500E37CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923C5A1B2733D15500E37CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923C5A212733D25F00E37CF8 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
+		924930BF27612EA800FBB1F9 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		926E13CF275376E10048FAE2 /* FeedBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBoardController.swift; sourceTree = "<group>"; };
 		926E13D12753780D0048FAE2 /* FeedBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBoardCell.swift; sourceTree = "<group>"; };
 		9273A658273D7D2600441C43 /* AllLecturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLecturesController.swift; sourceTree = "<group>"; };
@@ -38,6 +56,11 @@
 		9273A65D273D912200441C43 /* MyLecturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLecturesController.swift; sourceTree = "<group>"; };
 		9273A65F273D913000441C43 /* MyLecturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLecturesCell.swift; sourceTree = "<group>"; };
 		928730F82741813700878181 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		928AC2D62770C3540049EFE2 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		928AC2D82770C5400049EFE2 /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
+		928AC2DD2770DBEF0049EFE2 /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
+		928AC2DF2770DF510049EFE2 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		92A169D92741609900D62A98 /* LectureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureCell.swift; sourceTree = "<group>"; };
 		92A169DD27416EBA00D62A98 /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,12 +70,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928AC2E32770E4CF0049EFE2 /* SDWebImage in Frameworks */,
+				92615A07276F6894005F012A /* SwiftyJSON in Frameworks */,
+				9230A3302777AB0F00147457 /* Realm in Frameworks */,
+				9230A3322777AB0F00147457 /* RealmSwift in Frameworks */,
+				92615A0A276F68BB005F012A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922CEEFC2765F2470041E478 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				922CEEFD2765F2790041E478 /* VkAuthViewController.swift */,
+				928AC2D82770C5400049EFE2 /* FriendsAPI.swift */,
+				9230A32727779B0800147457 /* RealmViewController.swift */,
+				9230A32C2777A99E00147457 /* FriendDB.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		923C5A012733D15400E37CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +111,9 @@
 		923C5A0C2733D15400E37CF8 /* UI_2 */ = {
 			isa = PBXGroup;
 			children = (
+				928AC2DC2770DBD60049EFE2 /* Extension */,
+				928AC2D32770C2E80049EFE2 /* VkApi */,
+				922CEEFC2765F2470041E478 /* Services */,
 				926E13CE2753767F0048FAE2 /* Feed */,
 				92A169D62741604200D62A98 /* Lecture */,
 				9273A65C273D905600441C43 /* MyLectures */,
@@ -83,6 +125,7 @@
 				923C5A162733D15500E37CF8 /* Assets.xcassets */,
 				923C5A1B2733D15500E37CF8 /* Info.plist */,
 				928730F82741813700878181 /* Design.swift */,
+				924930BF27612EA800FBB1F9 /* Session.swift */,
 			);
 			path = UI_2;
 			sourceTree = "<group>";
@@ -114,6 +157,24 @@
 			path = MyLectures;
 			sourceTree = "<group>";
 		};
+		928AC2D32770C2E80049EFE2 /* VkApi */ = {
+			isa = PBXGroup;
+			children = (
+				928AC2D42770C30F0049EFE2 /* FriendsViewController.swift */,
+				928AC2D62770C3540049EFE2 /* PhotosViewController.swift */,
+				928AC2DF2770DF510049EFE2 /* Friend.swift */,
+			);
+			path = VkApi;
+			sourceTree = "<group>";
+		};
+		928AC2DC2770DBD60049EFE2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				928AC2DD2770DBEF0049EFE2 /* Data+PrettyJSON.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		92A169D62741604200D62A98 /* Lecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +200,13 @@
 			dependencies = (
 			);
 			name = UI_2;
+			packageProductDependencies = (
+				92615A06276F6894005F012A /* SwiftyJSON */,
+				92615A09276F68BB005F012A /* Alamofire */,
+				928AC2E22770E4CF0049EFE2 /* SDWebImage */,
+				9230A32F2777AB0F00147457 /* Realm */,
+				9230A3312777AB0F00147457 /* RealmSwift */,
+			);
 			productName = UI_2;
 			productReference = 923C5A0A2733D15400E37CF8 /* UI_2.app */;
 			productType = "com.apple.product-type.application";
@@ -167,6 +235,12 @@
 				Base,
 			);
 			mainGroup = 923C5A012733D15400E37CF8;
+			packageReferences = (
+				92615A05276F6894005F012A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				92615A08276F68BB005F012A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				9230A32E2777AB0F00147457 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 923C5A0B2733D15400E37CF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,18 +267,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9230A32827779B0800147457 /* RealmViewController.swift in Sources */,
 				92A169DA2741609900D62A98 /* LectureCell.swift in Sources */,
+				928AC2D72770C3540049EFE2 /* PhotosViewController.swift in Sources */,
+				928AC2D52770C30F0049EFE2 /* FriendsViewController.swift in Sources */,
 				923C5A222733D25F00E37CF8 /* LoginFormController.swift in Sources */,
 				923C5A0E2733D15400E37CF8 /* AppDelegate.swift in Sources */,
 				9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */,
 				92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */,
+				928AC2E02770DF510049EFE2 /* Friend.swift in Sources */,
+				928AC2D92770C5400049EFE2 /* FriendsAPI.swift in Sources */,
 				9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */,
+				922CEEFE2765F2790041E478 /* VkAuthViewController.swift in Sources */,
 				9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */,
+				924930C027612EA800FBB1F9 /* Session.swift in Sources */,
 				9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */,
 				923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */,
 				928730F92741813700878181 /* Design.swift in Sources */,
 				926E13D22753780D0048FAE2 /* FeedBoardCell.swift in Sources */,
 				926E13D0275376E10048FAE2 /* FeedBoardController.swift in Sources */,
+				928AC2DE2770DBEF0049EFE2 /* Data+PrettyJSON.swift in Sources */,
+				9230A32D2777A99E00147457 /* FriendDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +499,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9230A32E2777AB0F00147457 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.2;
+			};
+		};
+		92615A05276F6894005F012A /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		92615A08276F68BB005F012A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9230A32F2777AB0F00147457 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9230A32E2777AB0F00147457 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		9230A3312777AB0F00147457 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9230A32E2777AB0F00147457 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		92615A06276F6894005F012A /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92615A05276F6894005F012A /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		92615A09276F68BB005F012A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92615A08276F68BB005F012A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		928AC2E22770E4CF0049EFE2 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 928AC2E12770E4CF0049EFE2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 923C5A022733D15400E37CF8 /* Project object */;
 }
