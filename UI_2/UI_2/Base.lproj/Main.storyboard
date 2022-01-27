@@ -142,6 +142,128 @@
             </objects>
             <point key="canvasLocation" x="-1210" y="-591"/>
         </scene>
+        <!--Feed Board-->
+        <scene sceneID="J3i-h5-M4k">
+            <objects>
+                <tableViewController storyboardIdentifier="FeedBoard" id="jsg-4B-TVr" customClass="FeedBoard" customModule="UI_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="jhB-FB-JPn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="480" id="Fm3-SE-b1u" customClass="FeedCell" customModule="UI_2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="480"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fm3-SE-b1u" id="xrl-uF-4dT">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="480"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Вандышева1" translatesAutoresizingMaskIntoConstraints="NO" id="VSf-Ss-2HH">
+                                            <rect key="frame" x="20" y="11" width="360" height="240"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="360" id="Eqd-yj-5Qp"/>
+                                                <constraint firstAttribute="height" constant="240" id="qEM-j3-ARm"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lectureName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vn1-FE-e5I">
+                                            <rect key="frame" x="20" y="259" width="320" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="320" id="tcb-ev-T4U"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lectureDescription" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eu2-0A-0sm">
+                                            <rect key="frame" x="20" y="296" width="320" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="320" id="5RF-pt-DWQ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Вандышева1" translatesAutoresizingMaskIntoConstraints="NO" id="Ud6-31-tcp">
+                                            <rect key="frame" x="20" y="335" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="64" id="L67-v0-6tU"/>
+                                                <constraint firstAttribute="width" constant="64" id="zb6-0y-YFO"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="authorName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPc-2G-NUz">
+                                            <rect key="frame" x="92" y="339" width="220" height="26.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="220" id="JIN-Ht-BrK"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="authorDescription" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2p-j0-mTk">
+                                            <rect key="frame" x="92" y="373.5" width="220" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="220" id="S89-eA-1Wr"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="g0u-hk-sP6">
+                                            <rect key="frame" x="20" y="416.5" width="32" height="29.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="32" id="RQD-d8-K2Q"/>
+                                                <constraint firstAttribute="height" constant="32" id="ejb-ho-G6V"/>
+                                            </constraints>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sde-BJ-UXY">
+                                            <rect key="frame" x="60" y="415.5" width="32" height="31.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="32" id="Af6-G3-FJl"/>
+                                                <constraint firstAttribute="height" constant="32" id="d4J-RY-fkD"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="mPc-2G-NUz" firstAttribute="leading" secondItem="Ud6-31-tcp" secondAttribute="trailing" constant="8" symbolic="YES" id="2RI-qp-xJ6"/>
+                                        <constraint firstItem="sde-BJ-UXY" firstAttribute="leading" secondItem="g0u-hk-sP6" secondAttribute="trailing" constant="8" symbolic="YES" id="5be-3p-Y37"/>
+                                        <constraint firstItem="Vn1-FE-e5I" firstAttribute="top" secondItem="VSf-Ss-2HH" secondAttribute="bottom" constant="8" symbolic="YES" id="5gH-W0-bPa"/>
+                                        <constraint firstItem="mPc-2G-NUz" firstAttribute="top" secondItem="Eu2-0A-0sm" secondAttribute="bottom" constant="22" id="63Y-RT-BWj"/>
+                                        <constraint firstItem="g0u-hk-sP6" firstAttribute="top" secondItem="Ud6-31-tcp" secondAttribute="bottom" constant="16" id="Gmv-qO-GSc"/>
+                                        <constraint firstItem="Ud6-31-tcp" firstAttribute="top" secondItem="Eu2-0A-0sm" secondAttribute="bottom" constant="18" id="Lv1-0j-BME"/>
+                                        <constraint firstItem="Eu2-0A-0sm" firstAttribute="leading" secondItem="xrl-uF-4dT" secondAttribute="leadingMargin" id="QeE-bh-uhJ"/>
+                                        <constraint firstItem="VSf-Ss-2HH" firstAttribute="top" secondItem="xrl-uF-4dT" secondAttribute="topMargin" id="RFa-yM-o8o"/>
+                                        <constraint firstItem="sde-BJ-UXY" firstAttribute="top" secondItem="Ud6-31-tcp" secondAttribute="bottom" constant="16" id="RRQ-ek-KCO"/>
+                                        <constraint firstItem="g0u-hk-sP6" firstAttribute="leading" secondItem="xrl-uF-4dT" secondAttribute="leadingMargin" id="Uqi-gq-xtT"/>
+                                        <constraint firstItem="Eu2-0A-0sm" firstAttribute="top" secondItem="Vn1-FE-e5I" secondAttribute="bottom" constant="8" symbolic="YES" id="dQU-ik-90T"/>
+                                        <constraint firstItem="h2p-j0-mTk" firstAttribute="leading" secondItem="Ud6-31-tcp" secondAttribute="trailing" constant="8" symbolic="YES" id="iK7-Of-Vpw"/>
+                                        <constraint firstItem="Ud6-31-tcp" firstAttribute="leading" secondItem="xrl-uF-4dT" secondAttribute="leadingMargin" id="jA9-l7-fvy"/>
+                                        <constraint firstItem="h2p-j0-mTk" firstAttribute="top" secondItem="mPc-2G-NUz" secondAttribute="bottom" constant="8" id="pja-NO-t3K"/>
+                                        <constraint firstItem="Vn1-FE-e5I" firstAttribute="leading" secondItem="xrl-uF-4dT" secondAttribute="leadingMargin" id="rxX-8e-s4w"/>
+                                        <constraint firstItem="VSf-Ss-2HH" firstAttribute="leading" secondItem="xrl-uF-4dT" secondAttribute="leadingMargin" id="saN-fM-C9C"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="authorDescription" destination="h2p-j0-mTk" id="4if-s9-vOR"/>
+                                    <outlet property="authorImage" destination="Ud6-31-tcp" id="Ko6-S7-LbZ"/>
+                                    <outlet property="authorName" destination="mPc-2G-NUz" id="56e-ce-Jmv"/>
+                                    <outlet property="lectureComment" destination="sde-BJ-UXY" id="DXq-xt-66L"/>
+                                    <outlet property="lectureDescription" destination="Eu2-0A-0sm" id="cpL-fY-PoH"/>
+                                    <outlet property="lectureImage" destination="VSf-Ss-2HH" id="LEc-Rf-983"/>
+                                    <outlet property="lectureLike" destination="sde-BJ-UXY" id="0gu-cM-PhA"/>
+                                    <outlet property="lectureName" destination="Vn1-FE-e5I" id="cuQ-yl-h3g"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jsg-4B-TVr" id="rgn-fX-dhd"/>
+                            <outlet property="delegate" destination="jsg-4B-TVr" id="NEu-4s-UT9"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sFa-pQ-j4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-377" y="-581"/>
+        </scene>
         <!--Login Form Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -769,12 +891,14 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="NHN-EJ-eOo"/>
-        <segue reference="DDW-R1-snt"/>
+        <segue reference="iGf-1G-15P"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Gallery" width="120" height="120"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
+        <image name="bubble.right" catalog="system" width="128" height="110"/>
         <image name="folder.fill" catalog="system" width="128" height="97"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="logo 60*60" width="60" height="60"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="photo" catalog="system" width="128" height="93"/>

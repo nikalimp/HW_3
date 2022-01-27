@@ -20,8 +20,6 @@
 		924930C027612EA800FBB1F9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924930BF27612EA800FBB1F9 /* Session.swift */; };
 		92615A07276F6894005F012A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 92615A06276F6894005F012A /* SwiftyJSON */; };
 		92615A0A276F68BB005F012A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 92615A09276F68BB005F012A /* Alamofire */; };
-		926E13D0275376E10048FAE2 /* FeedBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E13CF275376E10048FAE2 /* FeedBoardController.swift */; };
-		926E13D22753780D0048FAE2 /* FeedBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E13D12753780D0048FAE2 /* FeedBoardCell.swift */; };
 		9273A659273D7D2600441C43 /* AllLecturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A658273D7D2600441C43 /* AllLecturesController.swift */; };
 		9273A65B273D7EBA00441C43 /* AllLecturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65A273D7EBA00441C43 /* AllLecturesCell.swift */; };
 		9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273A65D273D912200441C43 /* MyLecturesController.swift */; };
@@ -41,6 +39,8 @@
 		928AC2E32770E4CF0049EFE2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 928AC2E22770E4CF0049EFE2 /* SDWebImage */; };
 		92A169DA2741609900D62A98 /* LectureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169D92741609900D62A98 /* LectureCell.swift */; };
 		92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A169DD27416EBA00D62A98 /* LectureViewController.swift */; };
+		92ECAE7527A3111100017588 /* FeedBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECAE7427A3111100017588 /* FeedBoard.swift */; };
+		92ECAE7727A3115700017588 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECAE7627A3115700017588 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,8 +55,6 @@
 		923C5A1B2733D15500E37CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923C5A212733D25F00E37CF8 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
 		924930BF27612EA800FBB1F9 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		926E13CF275376E10048FAE2 /* FeedBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBoardController.swift; sourceTree = "<group>"; };
-		926E13D12753780D0048FAE2 /* FeedBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBoardCell.swift; sourceTree = "<group>"; };
 		9273A658273D7D2600441C43 /* AllLecturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLecturesController.swift; sourceTree = "<group>"; };
 		9273A65A273D7EBA00441C43 /* AllLecturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLecturesCell.swift; sourceTree = "<group>"; };
 		9273A65D273D912200441C43 /* MyLecturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLecturesController.swift; sourceTree = "<group>"; };
@@ -73,6 +71,8 @@
 		928AC2DF2770DF510049EFE2 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		92A169D92741609900D62A98 /* LectureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureCell.swift; sourceTree = "<group>"; };
 		92A169DD27416EBA00D62A98 /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
+		92ECAE7427A3111100017588 /* FeedBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBoard.swift; sourceTree = "<group>"; };
+		92ECAE7627A3115700017588 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +149,8 @@
 		926E13CE2753767F0048FAE2 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				926E13CF275376E10048FAE2 /* FeedBoardController.swift */,
-				926E13D12753780D0048FAE2 /* FeedBoardCell.swift */,
+				92ECAE7427A3111100017588 /* FeedBoard.swift */,
+				92ECAE7627A3115700017588 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -292,7 +292,9 @@
 				928AC2D72770C3540049EFE2 /* PhotosViewController.swift in Sources */,
 				928AC2D52770C30F0049EFE2 /* FriendsViewController.swift in Sources */,
 				923C5A222733D25F00E37CF8 /* LoginFormController.swift in Sources */,
+				92ECAE7727A3115700017588 /* FeedCell.swift in Sources */,
 				923C5A0E2733D15400E37CF8 /* AppDelegate.swift in Sources */,
+				92ECAE7527A3111100017588 /* FeedBoard.swift in Sources */,
 				9282451E2799D4630083C54F /* HomeViewController.swift in Sources */,
 				9273A660273D913000441C43 /* MyLecturesCell.swift in Sources */,
 				92A169DE27416EBA00D62A98 /* LectureViewController.swift in Sources */,
@@ -307,8 +309,6 @@
 				9273A65E273D912200441C43 /* MyLecturesController.swift in Sources */,
 				923C5A102733D15400E37CF8 /* SceneDelegate.swift in Sources */,
 				928730F92741813700878181 /* Design.swift in Sources */,
-				926E13D22753780D0048FAE2 /* FeedBoardCell.swift in Sources */,
-				926E13D0275376E10048FAE2 /* FeedBoardController.swift in Sources */,
 				928AC2DE2770DBEF0049EFE2 /* Data+PrettyJSON.swift in Sources */,
 				9230A32D2777A99E00147457 /* FriendDB.swift in Sources */,
 			);
