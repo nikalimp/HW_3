@@ -62,7 +62,7 @@ class LoginViewController: UIViewController {
         }
     }
     private func showHomeViewController() {
-        guard let vc = storyboard?.instantiateViewController(withIdentifier: "HomeViewController") else { return }
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "NewsFeedViewController") else { return }
         guard let window = self.view.window else { return }
         window.rootViewController = vc
     }
